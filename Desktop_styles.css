@@ -1,0 +1,239 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    width: 1920px;
+    margin: 0 auto;
+}
+.logo {
+    width: 149px;
+    height: 119px;
+}
+.header-text {
+    font-family: 'Futura', sans-serif;
+    color: #D92D2D;
+    /* Adjust the size as needed */
+    font-size: 48px;
+    font-weight: bold;
+    position:absolute;
+    top:47px;
+    left:145px;
+    gap: 20px;
+}
+
+
+
+
+.product-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px; /* Abstand vom Header, anpassen nach Bedarf */
+    margin-left: 350px;
+}
+
+.product-image {
+    width: 700px; /* oder die tatsächliche Breite Ihres Produktbildes */
+    height: 720px;
+    margin-top: 60px;
+    /* margin-right hier entfernt */
+}
+
+.product-info h2 {
+    font-family: 'Futura', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Stellt sicher, dass der Text linksbündig mit dem Bild ist */
+}
+
+.product-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Futura', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 20px; /* Abstand vom Text, anpassen nach Bedarf */
+    border-radius: 50px;
+}
+
+
+.section-header {
+    font-family: 'Futura', sans-serif;
+    text-align: center;
+    margin-top: 500px;
+  }
+  
+  .section-header h2 {
+    font-size: 75px; /* Passen Sie die Größe nach Bedarf an */
+    color: #000; /* Oder die gewünschte Textfarbe */
+    margin-bottom: 10px; /* Abstand zwischen Überschrift und Text */
+  }
+  
+  .section-header p {
+    font-size: 32px; /* Passen Sie die Größe nach Bedarf an */
+    color: #666; /* Oder die gewünschte Textfarbe */
+  }
+
+  .section-title .subtitle {
+    display: inline-block;
+    position: relative;
+    font-family: 'Futura', sans-serif;
+    font-size:28px;
+    /* Weitere Stile für die Schriftart, wie Größe und Farbe */
+  }
+  
+  .section-title .subtitle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Anpassen, um den Strich unter dem Text zu positionieren */
+    width: 100%; /* oder eine spezifische Breite, wenn gewünscht */
+    height: 3px; /* Dicke des Strichs */
+    background-color: red;
+    
+  }
+
+  .product-container {
+    display: flex;
+    justify-content: space-around; /* Verteilt den Platz gleichmäßig um die Elemente */
+  }
+  
+  .product-image {
+    width: 33%; /* Teilt die Breite der Container durch drei */
+    object-fit: contain; /* Stellt sicher, dass die Bilder vollständig sichtbar sind, ohne das Seitenverhältnis zu verzerren */
+  }
+
+  .product-card {
+    background: #B1A9AC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px; /* Fügt einen Abstand von 20px zu allen Seiten hinzu */
+    /* Für größere Bildschirme können Sie auch einen prozentualen Wert verwenden, z.B. margin: 2%; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: fügt einen Schatten für einen schwebenden Effekt hinzu */
+    max-width: 1000px; /* Maximale Breite des Kastens */
+    margin-left: auto; /* Zentriert den Kasten horizontal */
+    margin-right: auto; /* Zentriert den Kasten horizontal */
+    padding-top: 40px;
+  }
+  
+  .product-info {
+    max-width: 50%;
+    margin-top: 40px;
+
+  }
+  
+  .new-label_2 {
+    color: #000; /* Schwarze Farbe */
+    font-size: 14px; /* Oder die gewünschte Schriftgröße */
+    font-weight: bold; /* Für fettgedruckten Text */
+    text-transform: uppercase; /* Für Großbuchstaben */
+    /* Weitere Stildefinitionen können hier eingefügt werden */
+
+  }
+  
+  .product-info h2 {
+    font-family: 'Futura', sans-serif;
+    /* Weitere Stildefinitionen für die Schriftgröße, Farbe usw. */
+  }
+  
+  .product-info h3 {
+    font-family: 'Futura', sans-serif;
+    /* Weitere Stildefinitionen für die Schriftgröße, Farbe usw. */
+  }
+  
+  
+  .product-info p {
+    font-family: 'Futura', sans-serif;
+    /* Weitere Stildefinitionen für die Schriftgröße, Farbe usw. */
+  }
+  
+  .buy-button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-image {
+    max-width: 40%;
+    object-fit: contain;
+  }
+
+
+
+
+  .product-card_2 {
+    background: #77B3EF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px; /* Fügt einen Abstand von 20px zu allen Seiten hinzu */
+    /* Für größere Bildschirme können Sie auch einen prozentualen Wert verwenden, z.B. margin: 2%; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: fügt einen Schatten für einen schwebenden Effekt hinzu */
+    max-width: 1000px; /* Maximale Breite des Kastens */
+    margin-left: auto; /* Zentriert den Kasten horizontal */
+    margin-right: auto; /* Zentriert den Kasten horizontal */
+    padding-top: 40px;
+  }
+    
+  
+  .product-info_2 {
+    max-width: 50%;
+    margin-top: 40px;
+  }
+
+  .new-label {
+    color: #000; /* Schwarze Farbe */
+    font-size: 14px; /* Oder die gewünschte Schriftgröße */
+    font-weight: bold; /* Für fettgedruckten Text */
+    text-transform: uppercase; /* Für Großbuchstaben */
+    /* Weitere Stildefinitionen können hier eingefügt werden */
+
+  }
+  
+  .product-info_2 h2 {
+    font-family: 'Futura', sans-serif;
+    /* Weitere Stildefinitionen für die Schriftgröße, Farbe usw. */
+  }
+  
+  .product-info_2 h3 {
+    font-family: 'Futura', sans-serif;
+    /* Weitere Stildefinitionen für die Schriftgröße, Farbe usw. */
+  }
+  
+  
+  .product-info_2 p {
+    font-family: 'Futura', sans-serif;
+    /* Weitere Stildefinitionen für die Schriftgröße, Farbe usw. */
+  }
+  
+  .buy-button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-image {
+    max-width: 40%;
+    object-fit: contain;
+  }
+  
